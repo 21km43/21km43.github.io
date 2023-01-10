@@ -11,7 +11,6 @@ export default function BlogPostItemContent({ children, className }) {
   const giscus = (
     <React.Fragment>
       <hr />
-      <br></br>
       <Giscus
         repo="21km43/21km43.github.io"
         repoId="R_kgDOIvnVhQ"
