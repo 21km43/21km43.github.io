@@ -17,7 +17,3 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 $$
 I = \int_0^{2\pi} \sin(x)\,dx
 $$
-
-## Comments
-
-<Comments/>
