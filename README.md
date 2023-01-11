@@ -13,4 +13,5 @@ git branch -M main
 git push -u origin main
 ```
 ## Credits
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+* [Docusaurus](https://docusaurus.io/)
+* [giscus](https://github.com/giscus/giscus)
