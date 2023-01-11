@@ -12,6 +12,7 @@ export default function BlogPostItemContent({ children, className }) {
     <React.Fragment>
       <hr />
       <Giscus
+        host="https://giscus-21km43.vercel.app"
         repo="21km43/21km43.github.io"
         repoId="R_kgDOIvnVhQ"
         category="General"
