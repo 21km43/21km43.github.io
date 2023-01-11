@@ -22,7 +22,7 @@ export default function BlogPostItemContent({ children, className }) {
         emitMetadata="0"
         inputPosition="bottom"
         theme={colorMode}
-        lang="en"
+        lang="ja"
         loading="lazy"
         crossorigin="anonymous"
         async
