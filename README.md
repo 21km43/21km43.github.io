@@ -13,5 +13,4 @@ git branch -M main
 git push -u origin main
 ```
 ## Credits
-* [Docusaurus](https://docusaurus.io/)
-* [giscus](https://github.com/giscus/giscus)
+* [Docusaurus](https://docusaurus.io)
