@@ -51,7 +51,6 @@ export default function DocItemLayout({ children }) {
         inputPosition="bottom"
         theme={colorMode}
         lang="ja"
-        loading="lazy"
         crossorigin="anonymous"
         async
       />

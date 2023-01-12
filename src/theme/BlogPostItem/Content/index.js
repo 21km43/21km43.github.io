@@ -24,7 +24,6 @@ export default function BlogPostItemContent({ children, className }) {
         inputPosition="bottom"
         theme={colorMode}
         lang="ja"
-        loading="lazy"
         crossorigin="anonymous"
         async
       />
