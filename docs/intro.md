@@ -10,7 +10,7 @@ A-->B
 B-->C
 ```
 
-:::note メモ
+:::note
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 :::
 

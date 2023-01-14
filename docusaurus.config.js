@@ -117,12 +117,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      googleAdsense: {
+        dataAdClient: 'ca-pub-9935979998194392',
+      },
     }),
   
   markdown: {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: ['docusaurus-plugin-google-adsense'],
 };
 
 module.exports = config;
