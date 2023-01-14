@@ -8,7 +8,7 @@ You can deploy this project using Github Actions. Once this repository was pushe
 
 ```bash
 git add .
-git commit -m "first commit"
+git commit -m "commit message"
 git branch -M main
 git push -u origin main
 ```
