@@ -64,6 +64,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title: '21km43',
         logo: {
@@ -113,6 +118,11 @@ const config = {
         ],
         copyright: `Copyright © 2023 Koki Mizumoto`,
       },
+      algolia: {
+        appId: '81P68QFGV3',
+        apiKey: '88a38318eb387bb03630c5d1a436cd56',
+        indexName: '21km43',
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -126,7 +136,9 @@ const config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
-  plugins: ['docusaurus-plugin-google-adsense'],
+  plugins: [
+    'docusaurus-plugin-google-adsense',
+  ],
 };
 
 module.exports = config;
