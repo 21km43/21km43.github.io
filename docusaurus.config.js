@@ -41,6 +41,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {},
       }),
     ],
   ],
@@ -131,9 +132,13 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    '@saucelabs/theme-github-codeblock',
+  ],
   plugins: [
     'docusaurus-plugin-google-adsense',
+    'docusaurus-node-polyfills',
   ],
 };
 
