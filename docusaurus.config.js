@@ -81,6 +81,11 @@ const config = {
             position: 'left'
           },
           {
+            href: '/about',
+            label: 'About',
+            position: 'left',
+          }, // Calc, References
+          {
             href: 'https://github.com/21km43/21km43.github.io',
             label: 'GitHub',
             position: 'right',
