@@ -2,6 +2,7 @@ site_name: My Docs
 
 repo_url: https://github.com/21km43/21km43.github.io
 repo_name: 21km43/21km43.github.io
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -10,9 +11,15 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
     - navigation.instant
     - navigation.tabs
     - navigation.top
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil
+    view: material/eye
 
   palette:
     # Palette toggle for light mode
@@ -31,6 +38,7 @@ theme:
         name: Switch to light mode
 
 nav:
+  - Home: index.md
   - Blog:
     - blog/index.md
 
@@ -67,11 +75,16 @@ markdown_extensions:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/21km43
+    - icon: fontawesome/brands/github
+      link: https://github.com/21km43
 
 extra_javascript:
   - javascripts/katex.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.js  
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/contrib/auto-render.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
 
 extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
