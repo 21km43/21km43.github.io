@@ -8,3 +8,4 @@ Once you push this repository, Pages will be generated and published by GitHub A
 ## Credits
 * [MkDocs](https://www.mkdocs.org)
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+* [Plugins for MkDocs and Python Markdown](https://github.com/Neoteroi/mkdocs-plugins)

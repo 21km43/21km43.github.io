@@ -51,6 +51,7 @@ markdown_extensions:
   - tables
   - def_list
   - admonition
+  - neoteroi.cards
 
   - pymdownx.details
   - pymdownx.superfences
@@ -74,12 +75,12 @@ markdown_extensions:
       custom_checkbox: true
 
 extra:
-  generator: false
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/21km43
     - icon: fontawesome/brands/github
       link: https://github.com/21km43
+  generator: false
 
 extra_javascript:
   - javascripts/katex.js 
@@ -88,3 +89,6 @@ extra_javascript:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
+  - stylesheets/neoteroi-mkdocs.css
+
+copyright: Copyright &copy; 2023 Koki Mizumoto

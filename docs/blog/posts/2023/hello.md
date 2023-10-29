@@ -14,11 +14,3 @@ Text text text text text text text text text text text text text text text text 
 サンプル
 テスト
 確認用テキスト
-
-```cpp linenums="1" hl_lines="2 3"
-int main() {
-  
-  return 0;
-}
-
-```

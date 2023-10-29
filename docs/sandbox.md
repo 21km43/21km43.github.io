@@ -4,8 +4,24 @@ comments: true
 
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).  
-[audio](media/th720fam.mp3)
+::cards::
+
+- title: Zeus
+  content: Lorem ipsum dolor sit amet.
+
+- title: Athena
+  content: Lorem ipsum dolor sit amet.
+
+::/cards::
+
+  [Language]: changing-the-language.md
+  [Navigation]: setting-up-navigation.md
+  [Header]: setting-up-the-header.md
+  [Footer]: setting-up-the-footer.md
+  [Search]: setting-up-site-search.md
+  [Tags]: setting-up-tags.md
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -42,6 +58,14 @@ graph LR
   C --> D[Debug];
   D --> B;
   B ---->|No| E[Yay!];
+```
+
+```cpp linenums="1" hl_lines="2 3"
+int main() {
+  
+  return 0;
+}
+
 ```
 
 <!---
