@@ -4,10 +4,11 @@ comments: true
 
 # Welcome to MkDocs
 
-::cards::
+::cards:: cols=2
 
 - title: Zeus
   content: Lorem ipsum dolor sit amet.
+  url: https://en.wikipedia.org/wiki/Zeus
 
 - title: Athena
   content: Lorem ipsum dolor sit amet.

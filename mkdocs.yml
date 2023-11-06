@@ -38,9 +38,17 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Blog:
     - blog/index.md
+  - Links:
+    - links.md
+
+not_in_nav: |
+  /privacy-policy.md
+  /sandbox.md
+  
 
 plugins:
   - blog
