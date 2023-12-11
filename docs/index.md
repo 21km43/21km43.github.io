@@ -7,4 +7,4 @@ comments: false
 
 # Home
 
-[sandbox](sandbox.md)
+[Sandbox](sandbox.md)

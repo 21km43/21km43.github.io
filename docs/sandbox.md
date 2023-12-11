@@ -4,23 +4,14 @@ comments: true
 
 # Welcome to MkDocs
 
-::cards:: cols=2
+<div class="grid cards" markdown>
 
-- title: Zeus
-  content: Lorem ipsum dolor sit amet.
-  url: https://en.wikipedia.org/wiki/Zeus
+- __HTML__ for content and structure
+- __JavaScript__ for interactivity
+- __CSS__ for text running out of boxes
+- __Internet Explorer__ ... huh?
 
-- title: Athena
-  content: Lorem ipsum dolor sit amet.
-
-::/cards::
-
-  [Language]: changing-the-language.md
-  [Navigation]: setting-up-navigation.md
-  [Header]: setting-up-the-header.md
-  [Footer]: setting-up-the-footer.md
-  [Search]: setting-up-site-search.md
-  [Tags]: setting-up-tags.md
+</div>
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -70,5 +61,5 @@ int main() {
 ```
 
 <!---
-  コメント
+  Comment
 -->

@@ -22,28 +22,36 @@ theme:
     view: material/eye
 
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
+      scheme: default 
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
 
 nav:
   - Home:
     - index.md
   - Blog:
     - blog/index.md
+  - About:
+    - about.md
   - Links:
     - links.md
+  # TODO: Flutter Application
 
 not_in_nav: |
   /privacy-policy.md
@@ -59,7 +67,8 @@ markdown_extensions:
   - tables
   - def_list
   - admonition
-  - neoteroi.cards
+  - attr_list
+  - md_in_html
 
   - pymdownx.details
   - pymdownx.superfences
@@ -97,6 +106,5 @@ extra_javascript:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
-  - stylesheets/neoteroi-mkdocs.css
 
 copyright: Copyright &copy; 2023 Koki Mizumoto
