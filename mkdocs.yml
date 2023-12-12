@@ -70,6 +70,10 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
@@ -97,6 +101,11 @@ extra:
       link: https://twitter.com/21km43
     - icon: fontawesome/brands/github
       link: https://github.com/21km43
+  
+  analytics:
+    provider: google
+    property: G-BPQQ2G5K77
+
   generator: false
 
 extra_javascript:
