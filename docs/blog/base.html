@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<meta property="og:title" content="{{ page.title }} - manj.io">
+<meta name="twitter:title" content="{{ page.title }} - manj.io">
+{% if page and page.meta and page.meta.description %}
+<meta property="og:description" content="{{ page.meta.description }}">
+{% endif %}
+{% if page and page.meta and page.meta.image %}
+<meta property="og:image" content="{{ page.meta.image }}">
+<meta name="twitter:image" content="{{ page.meta.image }}">
+{% else %}
+<meta property="og:image" content="https://www.manj.io/assets/img/site.jpg">
+<meta name="twitter:image" content="https://www.manj.io/assets/img/site.jpg">
+{% endif %}
+{% if page and page.meta and page.meta.type %}
+<meta property="og:type" content="{{ page.meta.type }}">
+{% else %}
+<meta property="og:type" content="article">
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@_manji0">
+<meta name="twitter:creator" content="@_manji0">
+<meta property="og:locale" content="ja_JP">
+{% endblock %}
